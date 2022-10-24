@@ -194,7 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ControladorDisparo: {fileID: 3723594940336456575}
   bala: {fileID: 681572116226735321, guid: 4c40d339b5529074b836245659b7215e, type: 3}
-  spawntime: 1
+  spawntime: 0.5
 --- !u!114 &-3920845684818179707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b349441b82a58f741819a76ab55aa805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadX: 10
+  velocidadX: 15
 --- !u!114 &-3291340129579084426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,3 +222,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   "da\xF1o": 10
   texto: nave
+  efectoMuerte: {fileID: 6753123503863140481, guid: 40b29085bde00304087f4d40b8e58c1c, type: 3}

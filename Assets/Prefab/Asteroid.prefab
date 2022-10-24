@@ -31,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 564230989905677876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1225, y: 1.1188, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -152,6 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   "da\xF1o": 10
   texto: nave
+  efectoMuerte: {fileID: 6137836717374357209, guid: 0d0920a8183cfdc4ba5a73505e5f349c, type: 3}
 --- !u!114 &4641598450374065241
 MonoBehaviour:
   m_ObjectHideFlags: 0
