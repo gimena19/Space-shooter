@@ -601,7 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aacf04543e585754aa0ad429296b4bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 30
+  vida: 40
   efectoMuerte: {fileID: 6753123503863140481, guid: 40b29085bde00304087f4d40b8e58c1c, type: 3}
 --- !u!1 &451874209
 GameObject:
