@@ -11,7 +11,7 @@ public class Daño : MonoBehaviour
     {
         if (other.CompareTag("nave"))
         {
-            other.GetComponent<Enemigo>().TomarDaño(daño);
+            other.GetComponent<CombateJugador>().TomarDaño(daño);
             Destroy(gameObject);
             Muerte();
         }

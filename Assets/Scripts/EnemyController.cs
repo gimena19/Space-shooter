@@ -30,6 +30,7 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        spawntime = Random.Range(1f, 4f);
         timeElapsed += Time.deltaTime;
         if (timeElapsed > spawntime)
         {
